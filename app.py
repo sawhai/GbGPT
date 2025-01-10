@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 import os
 # importing necessary functions from dotenv library
-import dotenv
+from dotenv import load_dotenv, dotenv_values
 # loading variables from .env file
 load_dotenv(dotenv_path='/Users/ha/Documents/Crewai/GbGPT/.env') 
 
